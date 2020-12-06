@@ -532,6 +532,7 @@
       </Part>
     <Staff id="1">
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Clef>
             <concertClefType>G</concertClefType>
@@ -556,11 +557,12 @@
           </voice>
         </Measure>
       <Measure>
+        <startRepeat/>
         <voice>
           <Tempo>
             <tempo>1.33333</tempo>
             <followText>1</followText>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 80</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 80</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -1037,6 +1039,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>5</endRepeat>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
