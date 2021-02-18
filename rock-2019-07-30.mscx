@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.01">
-  <programVersion>3.2.3</programVersion>
-  <programRevision>d2d863f</programRevision>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <pageWidth>8.27</pageWidth>
-      <pageHeight>11.69</pageHeight>
-      <pagePrintableWidth>7.4826</pagePrintableWidth>
-      <pageEvenLeftMargin>0.393701</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.393701</pageOddLeftMargin>
-      <pageEvenTopMargin>0.393701</pageEvenTopMargin>
       <pageEvenBottomMargin>0.787403</pageEvenBottomMargin>
-      <pageOddTopMargin>0.393701</pageOddTopMargin>
       <pageOddBottomMargin>0.787403</pageOddBottomMargin>
       <lyricsDashForce>0</lyricsDashForce>
       <doubleBarDistance>0.46</doubleBarDistance>
@@ -23,6 +16,7 @@
       <clefKeyRightMargin>1.75</clefKeyRightMargin>
       <barNoteDistance>1.2</barNoteDistance>
       <harmonyFretDist>0.5</harmonyFretDist>
+      <harmonyPlay>0</harmonyPlay>
       <defaultFramePadding>0.5</defaultFramePadding>
       <defaultFrameWidth>0.2</defaultFrameWidth>
       <defaultFrameRound>25</defaultFrameRound>
@@ -67,6 +61,8 @@
       <repeatRightFramePadding>0.5</repeatRightFramePadding>
       <repeatRightFrameWidth>0.2</repeatRightFrameWidth>
       <repeatRightFrameRound>25</repeatRightFrameRound>
+      <usePre_3_6_defaults>1</usePre_3_6_defaults>
+      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -80,6 +76,7 @@
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
+    <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
@@ -94,7 +91,7 @@
         <bracket type="0" span="2" col="0"/>
         </Staff>
       <trackName>Lead Vocals</trackName>
-      <Instrument>
+      <Instrument id="voice">
         <longName>Lead Vocals</longName>
         <shortName>L. Voc.</shortName>
         <trackName>Voice</trackName>
@@ -132,6 +129,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -145,7 +143,7 @@
           </StaffType>
         </Staff>
       <trackName>Backing Vocals</trackName>
-      <Instrument>
+      <Instrument id="voice">
         <longName>Backing Vocals</longName>
         <shortName>Bk. Voc.</shortName>
         <trackName>Voice</trackName>
@@ -183,6 +181,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
@@ -200,7 +199,7 @@
         <distOffset>1.5</distOffset>
         </Staff>
       <trackName>Lead Guitar</trackName>
-      <Instrument>
+      <Instrument id="electric-guitar">
         <longName>Lead Guitar</longName>
         <shortName>L. Gtr.</shortName>
         <trackName>Electric Guitar</trackName>
@@ -262,7 +261,7 @@
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Rhythm Guitar</trackName>
-      <Instrument>
+      <Instrument id="electric-guitar">
         <longName>Rhythm Guitar</longName>
         <shortName>R. Gtr.</shortName>
         <trackName>Electric Guitar</trackName>
@@ -324,7 +323,7 @@
         <defaultTransposingClef>F</defaultTransposingClef>
         </Staff>
       <trackName>Bass Guitar</trackName>
-      <Instrument>
+      <Instrument id="bass-guitar">
         <longName>Bass Guitar</longName>
         <shortName>B. Guit.</shortName>
         <trackName>Bass Guitar</trackName>
@@ -388,7 +387,7 @@
         <distOffset>1.5</distOffset>
         </Staff>
       <trackName>Drumset</trackName>
-      <Instrument>
+      <Instrument id="drumset">
         <longName>Drumset</longName>
         <shortName>Drs.</shortName>
         <trackName>Drumset</trackName>
@@ -1558,6 +1557,7 @@
             </Rest>
           <BarLine>
             <subtype>end</subtype>
+            <span>1</span>
             </BarLine>
           </voice>
         </Measure>
