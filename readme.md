@@ -3,4 +3,4 @@
 personal scores wit MuseScore3
 
 ### License
-All rights reserved.
+Attribution 4.0 International (CC BY 4.0) 
