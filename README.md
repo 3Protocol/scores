@@ -4,4 +4,4 @@ personal scores, currently only using [MuseScore3](https://musescore.org/en) ([G
 
 ## License
 
-[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+Creative Commons [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
