@@ -1,4 +1,4 @@
-# crea-scores
+# scores
 
 personal scores, currently only using [MuseScore3](https://musescore.org/en) ([GitHub](https://github.com/musescore/MuseScore))
 
